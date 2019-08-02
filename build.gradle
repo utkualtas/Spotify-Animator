@@ -18,7 +18,7 @@ allprojects {
     repositories {
         google()
         jcenter()
-        
+
     }
 }
 
@@ -28,27 +28,5 @@ task clean(type: Delete) {
 
 
 ext {
-    // Sdk and tools
-    minSdkVersion = 21
-    targetSdkVersion = 28
-    compileSdkVersion = 28
-    buildToolsVersion = '28.0.3'
-
-    // App dependencies
-    supportLibraryVersion = '28.0.0'
-    gsonVersion = '2.8.4'
-
-    firebaseMessagingVersion = '17.1.0'
-    firebaseVersion = '16.0.1'
-    firebaseIidVersion = '16.2.0'
-    firebaseAuthVersion = '16.0.2'
-    googleVersion = '15.0.1'
-    facebookVersion = '4.6.0'
-
-    dagger2Version = '2.15'
     butterKnifeVersion = '8.8.1'
-    retrofitVersion = '2.4.0'
-    rxjava2Version = '2.1.13'
-    rxandroidVersion= '2.0.2'
-    rxJava2RetrofitAdapterVersion ='2.4.0'
 }
