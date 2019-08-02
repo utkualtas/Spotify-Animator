@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:orientation="vertical"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:background="@color/colorAccent"
+            android:layout_centerInParent="true">
+            <TextView
+                android:id="@+id/testText"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Hello World!"
+                android:textColor="#fff"
+                android:textAlignment="center"
+                android:padding="16dp" />
+            <TextView
+                android:id="@+id/testText2"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                android:textColor="#fff"
+                android:textAlignment="center"
+                android:padding="16dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000">
+                <TextView
+                    android:id="@+id/testText3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Title"
+                    android:textColor="#fff"
+                    android:textAlignment="center"
+                    android:padding="16dp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
